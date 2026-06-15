@@ -39,7 +39,7 @@
   "homepage": "https://github.com/davidsusant/playwright-hybrid-automation#readme",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.3",
+    "@types/node": "^24.13.2",
     "@typescript-eslint/eslint-plugin": "^8.61.0",
     "@typescript-eslint/parser": "^8.61.0",
     "dotenv": "^17.4.2",
@@ -47,6 +47,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-playwright": "^2.10.4",
     "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }
 }
