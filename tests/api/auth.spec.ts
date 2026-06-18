@@ -1,7 +1,7 @@
 import { test, expect } from "@fixtures/apiFixtures.js";
 import { env } from "@config/env.js";
 
-test.describe("Auth API @api @smoke", () => {
+test.describe("Auth API @smoke", () => {
   test("returns a token for valid credentials", async ({ authApi }) => {
     const response = await authApi.createTokenResponse({
       username: env.api.admin.username,
